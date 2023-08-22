@@ -1,0 +1,104 @@
+<section>
+  <form action="">
+    <div class="search_customer">
+      <input type="text" placeholder="Tìm kiếm tài khoản" />
+      <button type="submit"><i class="bx bx-search-alt-2"></i></button>
+    </div>
+  </form>
+  <form action="" class="form_add_schedule">
+    <div class="seat_input">
+      <div class="row g-3">
+        <div class="col">
+          <div class="input-box">
+            <label for="">Tên lịch trình</label>
+            <input type="text" required />
+          </div>
+        </div>
+        <div class="col">
+          <div class="input-box">
+            <label for="">Thời gian bắt đầu chiếu</label>
+            <input type="time" required />
+          </div>
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col">
+          <div class="select_room">
+            <label for="">Phòng chiếu</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Mời chọn phòng chiếu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+            <div class="select_room">
+              <label for="">Phim chiếu</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Mời chọn phim</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-outline-success">
+      Thêm phòng chiếu
+    </button>
+  </form>
+  <div class="table_room">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Mã phòng</th>
+          <th scope="col">Tên phòng</th>
+          <th scope="col">Diện tích phòng</th>
+          <th scope="col">Mô tả</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="page_customer">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>

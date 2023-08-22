@@ -1,0 +1,105 @@
+<section>
+  <form action="" class="form_add_seat">
+    <div class="seat_input">
+      <div class="row g-3">
+        <div class="col">
+          <div class="input-box">
+            <label for="">Số lượng ghế</label>
+            <input type="text" required />
+          </div>
+        </div>
+        <div class="col">
+          <div class="input-box">
+            <label for="">Hàng ghế</label>
+            <input type="text" required />
+          </div>
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col">
+          <div class="input-box">
+            <label for="">Mô tả</label>
+            <input type="text" required />
+          </div>
+        </div>
+        <div class="col">
+          <div class="input-box">
+            <label for="">Trạng thái ghế</label>
+            <input type="text" required />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="seat_type">
+      <div class="text_seat_type">
+        <label for="">Loại ghế</label>
+        <div class="seat_type_combobox">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Mời chọn ghế</option>
+            <option value="1">Ghế đơn</option>
+            <option value="2">Ghế đôi</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-outline-success">Thêm ghế</button>
+  </form>
+  <div class="table_seat">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">ID Ghế</th>
+          <th scope="col">Mã ghế</th>
+          <th scope="col">Số lượng ghế</th>
+          <th scope="col">Mô tả</th>
+          <th scope="col">Loại ghế</th>
+          <th scope="col">Hàng ghế</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+          <td>@mdo</td>
+          <td>@mdo</td>
+          <td>
+            <button type="button" class="btn btn-outline-success">
+              <i class='bx bx-revision'></i>
+            </button>
+            <button type="button" class="btn btn-outline-danger"><i class='bx bxs-trash' ></i></button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+          <td>@mdo</td>
+          <td>@mdo</td>
+          <td>
+            <button type="button" class="btn btn-outline-success">
+              <i class='bx bx-revision'></i>
+            </button>
+            <button type="button" class="btn btn-outline-danger"><i class='bx bxs-trash' ></i></button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+          <td>@mdo</td>
+          <td>@mdo</td>
+          <td>
+            <button type="button" class="btn btn-outline-success">
+              <i class='bx bx-revision'></i>
+            </button>
+            <button type="button" class="btn btn-outline-danger"><i class='bx bxs-trash' ></i></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
